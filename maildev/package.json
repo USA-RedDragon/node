@@ -1,0 +1,84 @@
+{
+  "name": "maildev",
+  "description": "SMTP Server and Web Interface for reading and testing emails during development",
+  "version": "0.11.0",
+  "keywords": [
+    "email",
+    "e-mail",
+    "mail",
+    "mailcatcher"
+  ],
+  "author": {
+    "name": "Dan Farrelly"
+  },
+  "homepage": "http://djfarrelly.github.io/MailDev/",
+  "maintainers": [
+    {
+      "name": "djfarrelly",
+      "email": "daniel.j.farrelly@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/djfarrelly/maildev.git"
+  },
+  "main": "./index.js",
+  "bin": {
+    "maildev": "./bin/maildev"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/djfarrelly/maildev/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "commander": "~2.8.0",
+    "express": "^4.12.3",
+    "mailcomposer": "~0.2.11",
+    "mailparser": "^0.5.0",
+    "open": "~0.0.5",
+    "simplesmtp": "^0.3.35",
+    "smtp-connection": "^1.2.0",
+    "smtp-server": "^1.4.0",
+    "socket.io": "^1.3.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0",
+    "grunt-sass": "^0.18.1",
+    "matchdep": "^0.3.0",
+    "mocha": "^2.2.5",
+    "nodemailer": "^1.3.4",
+    "smtp-connection": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "gitHead": "0e08c171f23516a4468f4505932783df75237b6f",
+  "bugs": {
+    "url": "https://github.com/djfarrelly/maildev/issues"
+  },
+  "_id": "maildev@0.11.0",
+  "_shasum": "0e1d007a89bb13e7ca455ce107564fb2fed31f66",
+  "_from": "maildev@0.11.0",
+  "_npmVersion": "2.12.1",
+  "_nodeVersion": "2.3.1",
+  "_npmUser": {
+    "name": "djfarrelly",
+    "email": "daniel.j.farrelly@gmail.com"
+  },
+  "dist": {
+    "shasum": "0e1d007a89bb13e7ca455ce107564fb2fed31f66",
+    "tarball": "https://registry.npmjs.org/maildev/-/maildev-0.11.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/maildev/-/maildev-0.11.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

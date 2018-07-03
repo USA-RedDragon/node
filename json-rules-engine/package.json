@@ -1,0 +1,106 @@
+{
+  "name": "json-rules-engine",
+  "version": "2.3.0",
+  "description": "Rules Engine expressed in simple json",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha && npm run lint --silent",
+    "lint": "standard --verbose | snazzy || true",
+    "lint:fix": "standard --fix",
+    "prepublishOnly": "npm run build",
+    "build": "babel --stage 1 -d dist/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cachecontrol/json-rules-engine.git"
+  },
+  "keywords": [
+    "rules",
+    "engine",
+    "rules engine"
+  ],
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "/dist"
+    ],
+    "globals": [
+      "context",
+      "xcontext",
+      "describe",
+      "xdescribe",
+      "it",
+      "xit",
+      "before",
+      "beforeEach",
+      "expect",
+      "factories"
+    ]
+  },
+  "author": {
+    "name": "Cache Hamm",
+    "email": "cache.hamm@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cachecontrol/json-rules-engine/issues"
+  },
+  "homepage": "https://github.com/cachecontrol/json-rules-engine",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.2",
+    "babel-loader": "7.1.2",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "~6.24.1",
+    "babel-preset-stage-0": "~6.24.1",
+    "babel-register": "6.26.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "colors": "~1.1.2",
+    "dirty-chai": "2.0.1",
+    "mocha": "^5.0.5",
+    "perfy": "^1.1.2",
+    "sinon": "^4.1.2",
+    "sinon-chai": "^2.14.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "clone": "^2.1.1",
+    "debug": "^3.1.0",
+    "lodash.isobjectlike": "^4.0.0",
+    "object-hash": "^1.2.0",
+    "selectn": "^1.1.2"
+  },
+  "gitHead": "1583cd6ff8deaa2028cbad295101aeab907be2a8",
+  "_id": "json-rules-engine@2.3.0",
+  "_npmVersion": "5.8.0",
+  "_nodeVersion": "8.11.1",
+  "_npmUser": {
+    "name": "cachecontrol",
+    "email": "cdhamm@gmail.com"
+  },
+  "dist": {
+    "integrity": "sha512-pX3sutCVTqzCfmj91rqg6CYwU3BPts5QR59pl9yuoBmUDN1jq82dHFL9QUjS0fT97uCTx1+U6V33lYqK8O8uUw==",
+    "shasum": "052dc2b115b334dc517b6ebd799d30301b9f7829",
+    "tarball": "https://registry.npmjs.org/json-rules-engine/-/json-rules-engine-2.3.0.tgz",
+    "fileCount": 64,
+    "unpackedSize": 206896,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa6w3oCRA9TVsSAnZWagAA0GsQAJLPjeLXSBaizjMuFjjz\nXiJ0Gdfd5N32DFEOFySfynN9P8/+vIpp3pZGDT+kHjz+M4COzyytyUrUSd0Z\noo6+AZbEnXT1bJ9g09n6IqqpDUOHMMx9MiTtICOJXPyTM7bXfzf1GD+E6hUc\nIGevfACV3pYQf7ZOqzw61MFGI2bC8TYZp7+LS+7Pe5IoaXXyCW3OyxmPv3fw\n3cjawpvCC/nYKyGEnDoEJGHxaVObv4mf/gRTiANuO89DD7B2FzBYrnmA2+dz\niAz4u5E2nnvlnfVylev8DQra2gwwaKB6/ZyA0M3W0gtWliZt/wcPU9HZfUU5\n+tzJXT5bvG1ya1eNubSvRP38kjQwFZB3ukjq911EfK2leIUtXuSRwzYEeGci\nDH3bCNGRz54RSDNGwZTTkOv0bRErZieLL5Kyy4vE3E5sgt3Ehlq0gr/mbCbp\n7zl/gQkN3WBlC+csocbVGBc+zn3bNVhUS5GouOecfELiC+mrrwJ1rHynC1qS\nRm5/t2JUfbrIi2lUflvvq+sVR87UETR0Tjs5PTfAk+EKUokGyQONLENBqZ1M\nchqWGpYeedMhXNTdhy3WBFyXI2BSl05Zs76KiTAFaMKpW1hvW9KhAn+B0RHH\nDmEFj/MYNZ7CWx7D+/FCaJWDF9z9A+gmBffivb5TyS/GtNXwmamlzezqnsVx\nOqUA\r\n=qERw\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "name": "cachecontrol",
+      "email": "cdhamm@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/json-rules-engine_2.3.0_1525353959740_0.04092422209784985"
+  },
+  "_shasum": "052dc2b115b334dc517b6ebd799d30301b9f7829",
+  "_resolved": "https://registry.npmjs.org/json-rules-engine/-/json-rules-engine-2.3.0.tgz",
+  "_from": "json-rules-engine@2.3.0"
+}

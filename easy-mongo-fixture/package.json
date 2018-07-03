@@ -1,0 +1,57 @@
+{
+  "name": "easy-mongo-fixture",
+  "version": "1.0.7",
+  "description": "easy-mongo-fixture ================== [![Build Status](https://travis-ci.org/ivpusic/easy-mongo-fixture.svg?branch=master)](https://travis-ci.org/ivpusic/easy-mongo-fixture)",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivpusic/easy-mongo-fixture.git"
+  },
+  "keywords": [
+    "easy",
+    "mongo",
+    "fixture"
+  ],
+  "author": {
+    "name": "Ivan Pusic"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivpusic/easy-mongo-fixture/issues"
+  },
+  "homepage": "https://github.com/ivpusic/easy-mongo-fixture",
+  "dependencies": {
+    "q": "~1.0.1",
+    "easy-fixture": "*",
+    "mongodb": "~1.4.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "should": "~3.3.1",
+    "mongodb": "~1.4.2"
+  },
+  "_id": "easy-mongo-fixture@1.0.7",
+  "dist": {
+    "shasum": "f72782d740e4ef4d16626cd3de51d085a016bb6c",
+    "tarball": "https://registry.npmjs.org/easy-mongo-fixture/-/easy-mongo-fixture-1.0.7.tgz"
+  },
+  "_from": "easy-mongo-fixture@1.0.7",
+  "_npmVersion": "1.3.15",
+  "_npmUser": {
+    "name": "ivpusic",
+    "email": "pusic007@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "ivpusic",
+      "email": "pusic007@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "f72782d740e4ef4d16626cd3de51d085a016bb6c",
+  "_resolved": "https://registry.npmjs.org/easy-mongo-fixture/-/easy-mongo-fixture-1.0.7.tgz",
+  "readme": "ERROR: No README data found!"
+}
