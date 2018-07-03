@@ -67,7 +67,7 @@
   },
   "_id": "maildev@0.11.0",
   "_shasum": "0e1d007a89bb13e7ca455ce107564fb2fed31f66",
-  "_from": "maildev@0.11.0",
+  "_from": "maildev@>=0.11.0 <0.12.0",
   "_npmVersion": "2.12.1",
   "_nodeVersion": "2.3.1",
   "_npmUser": {

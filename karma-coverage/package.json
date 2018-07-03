@@ -254,7 +254,7 @@
   "homepage": "https://github.com/karma-runner/karma-coverage#readme",
   "_id": "karma-coverage@1.1.1",
   "_shasum": "5aff8b39cf6994dc22de4c84362c76001b637cf6",
-  "_from": "karma-coverage@1.1.1",
+  "_from": "karma-coverage@latest",
   "_npmVersion": "3.10.3",
   "_nodeVersion": "6.3.0",
   "_npmUser": {
@@ -284,5 +284,6 @@
     "tmp": "tmp/karma-coverage-1.1.1.tgz_1469269121665_0.31518028653226793"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/karma-coverage/-/karma-coverage-1.1.1.tgz"
+  "_resolved": "https://registry.npmjs.org/karma-coverage/-/karma-coverage-1.1.1.tgz",
+  "readme": "ERROR: No README data found!"
 }

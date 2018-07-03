@@ -68,7 +68,7 @@
   "homepage": "https://github.com/karma-runner/karma-html2js-preprocessor#readme",
   "_id": "karma-html2js-preprocessor@1.1.0",
   "_shasum": "fc09edf04bbe2bb6eee9ba1968f826b7388020bd",
-  "_from": "karma-html2js-preprocessor@1.1.0",
+  "_from": "karma-html2js-preprocessor@latest",
   "_npmVersion": "3.10.3",
   "_nodeVersion": "6.3.1",
   "_npmUser": {

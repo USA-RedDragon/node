@@ -34,7 +34,7 @@
     "shasum": "976a245532b73816086d6f26138f3034033e8b0e",
     "tarball": "https://registry.npmjs.org/easy-fixture/-/easy-fixture-1.0.0.tgz"
   },
-  "_from": "easy-fixture@1.0.0",
+  "_from": "easy-fixture@>=1.0.0 <2.0.0",
   "_npmVersion": "1.3.15",
   "_npmUser": {
     "name": "ivpusic",

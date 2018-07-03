@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sindresorhus/load-grunt-tasks"
+    "url": "git+https://github.com/sindresorhus/load-grunt-tasks.git"
   },
   "scripts": {
     "test": "xo && grunt"
@@ -44,34 +44,14 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "gitHead": "bb2e89f2759cfad6cc2f0a7fc5eb6cf6271fa2bd",
+  "readme": "# load-grunt-tasks [![Build Status](https://travis-ci.org/sindresorhus/load-grunt-tasks.svg?branch=master)](https://travis-ci.org/sindresorhus/load-grunt-tasks)\n\n> Load multiple grunt tasks using globbing patterns\n\nUsually you would have to load each task one by one, which is unnecessarily cumbersome.\n\nThis module will read the `dependencies`/`devDependencies`/`peerDependencies`/`optionalDependencies` in your package.json and load grunt tasks that match the provided patterns.\n\n#### Before\n\n```js\ngrunt.loadNpmTasks('grunt-shell');\ngrunt.loadNpmTasks('grunt-sass');\ngrunt.loadNpmTasks('grunt-recess');\ngrunt.loadNpmTasks('grunt-sizediff');\ngrunt.loadNpmTasks('grunt-svgmin');\ngrunt.loadNpmTasks('grunt-styl');\ngrunt.loadNpmTasks('grunt-php');\ngrunt.loadNpmTasks('grunt-eslint');\ngrunt.loadNpmTasks('grunt-concurrent');\ngrunt.loadNpmTasks('grunt-bower-requirejs');\n```\n\n#### After\n\n```js\nrequire('load-grunt-tasks')(grunt);\n```\n\n\n## Install\n\n```\n$ npm install --save-dev load-grunt-tasks\n```\n\n\n## Usage\n\n```js\n// Gruntfile.js\nmodule.exports = grunt => {\n\t// load all grunt tasks matching the ['grunt-*', '@*/grunt-*'] patterns\n\trequire('load-grunt-tasks')(grunt);\n\n\tgrunt.initConfig({});\n\tgrunt.registerTask('default', []);\n};\n```\n\n\n## Examples\n\n### Load all grunt tasks\n\n```js\nrequire('load-grunt-tasks')(grunt);\n```\n\nEquivalent to:\n\n```js\nrequire('load-grunt-tasks')(grunt, {pattern: ['grunt-*', '@*/grunt-*']});\n```\n\n### Load all grunt-contrib tasks\n\n```js\nrequire('load-grunt-tasks')(grunt, {pattern: 'grunt-contrib-*'});\n```\n\n### Load all grunt-contrib tasks and another non-contrib task\n\n```js\nrequire('load-grunt-tasks')(grunt, {pattern: ['grunt-contrib-*', 'grunt-shell']});\n```\n\n### Load all grunt-contrib tasks excluding one\n\nYou can exclude tasks using the negate `!` globbing pattern:\n\n```js\nrequire('load-grunt-tasks')(grunt, {pattern: ['grunt-contrib-*', '!grunt-contrib-coffee']});\n```\n\n### Set custom path to package.json\n\n```js\nrequire('load-grunt-tasks')(grunt, {config: '../package'});\n```\n\n### Only load from `devDependencies`\n\n```js\nrequire('load-grunt-tasks')(grunt, {scope: 'devDependencies'});\n```\n\n### Only load from `devDependencies` and `dependencies`\n\n```js\nrequire('load-grunt-tasks')(grunt, {scope: ['devDependencies', 'dependencies']});\n```\n\n### All options in use\n\n```js\nrequire('load-grunt-tasks')(grunt, {\n\tpattern: 'grunt-contrib-*',\n\tconfig: '../package.json',\n\tscope: 'devDependencies',\n\trequireResolution: true\n});\n```\n\n\n## Options\n\n### pattern\n\nType: `string`, `array`  \nDefault: `['grunt-*', '@*/grunt-*']` ([globbing pattern](https://github.com/isaacs/minimatch))\n\n### config\n\nType: `string`, `object`  \nDefault: Path to nearest package.json\n\n### scope\n\nType: `string`, `array`  \nDefault: `['dependencies', 'devDependencies', 'peerDependencies', 'optionalDependencies']`  \nValues: `'dependencies'`, `'devDependencies'`, `'peerDependencies'`, `'optionalDependencies'`, `'bundledDependencies'`\n\n### requireResolution\n\nType: `boolean`  \nDefault: `false`\n\nTraverse up the file hierarchy looking for dependencies like `require()`, rather than the default grunt-like behavior of loading tasks only in the immediate `node_modules` directory.\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n",
+  "readmeFilename": "readme.md",
   "bugs": {
     "url": "https://github.com/sindresorhus/load-grunt-tasks/issues"
   },
-  "homepage": "https://github.com/sindresorhus/load-grunt-tasks",
+  "homepage": "https://github.com/sindresorhus/load-grunt-tasks#readme",
   "_id": "load-grunt-tasks@3.4.1",
   "_shasum": "883b93eabd3b1ccbf364fdceb1ca8993fc65a8a5",
-  "_from": "load-grunt-tasks@3.4.1",
-  "_npmVersion": "2.14.12",
-  "_nodeVersion": "4.3.0",
-  "_npmUser": {
-    "name": "sindresorhus",
-    "email": "sindresorhus@gmail.com"
-  },
-  "dist": {
-    "shasum": "883b93eabd3b1ccbf364fdceb1ca8993fc65a8a5",
-    "tarball": "https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.4.1.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "sindresorhus",
-      "email": "sindresorhus@gmail.com"
-    }
-  ],
-  "_npmOperationalInternal": {
-    "host": "packages-6-west.internal.npmjs.com",
-    "tmp": "tmp/load-grunt-tasks-3.4.1.tgz_1456813683560_0.44614644604735076"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.4.1.tgz"
+  "_resolved": "https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.4.1.tgz",
+  "_from": "https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.4.1.tgz"
 }

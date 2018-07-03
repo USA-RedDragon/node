@@ -36,7 +36,6 @@
     "request": "^2.47.0",
     "rtlcss": "^1.6.1",
     "shelljs": "latest",
-    "stacksight": "latest",
     "swig": "^1.3.2",
     "uglify-js": "^2.4.14"
   },
@@ -52,7 +51,7 @@
   },
   "homepage": "https://github.com/linnovate/meanio#readme",
   "_id": "meanio@0.8.82",
-  "_shasum": "0b5622e848205cb380ded34376f0d3a0741bdb61",
-  "_from": "git://github.com/clevyr/meanio.git#jwt-changes",
+  "_shasum": "2bd53f39b9add65295f4f313e7e4dfcf2bd829dd",
+  "_from": "git://github.com/clevyr/meanio.git#d38aeb7a05c6244c5473feb59f025a34450d912c",
   "_resolved": "git://github.com/clevyr/meanio.git#d38aeb7a05c6244c5473feb59f025a34450d912c"
 }

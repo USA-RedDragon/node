@@ -42,7 +42,7 @@
   "homepage": "https://github.com/punkave/sanitize-html#readme",
   "_id": "sanitize-html@1.13.0",
   "_shasum": "4ee17cbec516bfe32f2ce6686a569d7e6b4f3631",
-  "_from": "sanitize-html@1.13.0",
+  "_from": "sanitize-html@*",
   "_npmVersion": "3.6.0",
   "_nodeVersion": "0.10.41",
   "_npmUser": {

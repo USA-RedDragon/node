@@ -63,7 +63,7 @@
   "gitHead": "19af1b447f9883bd59e92ce4ad308f3668d85740",
   "_id": "grunt-mocha-test@0.13.2",
   "_shasum": "0f3abcc6ab543647b1effc5ab44ebd3702f0ab8c",
-  "_from": "grunt-mocha-test@0.13.2",
+  "_from": "grunt-mocha-test@latest",
   "_npmVersion": "3.10.3",
   "_nodeVersion": "6.6.0",
   "_npmUser": {
@@ -85,5 +85,6 @@
     "tmp": "tmp/grunt-mocha-test-0.13.2.tgz_1474195398495_0.8653481204528362"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/grunt-mocha-test/-/grunt-mocha-test-0.13.2.tgz"
+  "_resolved": "https://registry.npmjs.org/grunt-mocha-test/-/grunt-mocha-test-0.13.2.tgz",
+  "readme": "ERROR: No README data found!"
 }

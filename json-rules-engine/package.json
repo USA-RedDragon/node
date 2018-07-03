@@ -102,5 +102,5 @@
   },
   "_shasum": "052dc2b115b334dc517b6ebd799d30301b9f7829",
   "_resolved": "https://registry.npmjs.org/json-rules-engine/-/json-rules-engine-2.3.0.tgz",
-  "_from": "json-rules-engine@2.3.0"
+  "_from": "json-rules-engine@latest"
 }

@@ -112,7 +112,7 @@
   "homepage": "https://github.com/karma-runner/karma-requirejs#readme",
   "_id": "karma-requirejs@1.1.0",
   "_shasum": "fddae2cb87d7ebc16fb0222893564d7fee578798",
-  "_from": "karma-requirejs@1.1.0",
+  "_from": "karma-requirejs@latest",
   "_npmVersion": "3.10.3",
   "_nodeVersion": "6.3.0",
   "_npmUser": {

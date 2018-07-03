@@ -109,7 +109,7 @@
   "homepage": "https://github.com/karma-runner/karma-coffee-preprocessor#readme",
   "_id": "karma-coffee-preprocessor@1.0.1",
   "_shasum": "3b78872b17b3f42db53fd51591b5e051d7de81bf",
-  "_from": "karma-coffee-preprocessor@1.0.1",
+  "_from": "karma-coffee-preprocessor@latest",
   "_npmVersion": "3.10.3",
   "_nodeVersion": "6.3.0",
   "_npmUser": {

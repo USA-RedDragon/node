@@ -68,7 +68,7 @@
   "homepage": "https://github.com/sindresorhus/del#readme",
   "_id": "del@2.2.2",
   "_shasum": "c12c981d067846c84bcaf862cff930d907ffd1a8",
-  "_from": "del@2.2.2",
+  "_from": "del@latest",
   "_npmVersion": "2.15.5",
   "_nodeVersion": "4.4.5",
   "_npmUser": {
@@ -90,5 +90,6 @@
     "tmp": "tmp/del-2.2.2.tgz_1471046735537_0.4419694794341922"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/del/-/del-2.2.2.tgz"
+  "_resolved": "https://registry.npmjs.org/del/-/del-2.2.2.tgz",
+  "readme": "ERROR: No README data found!"
 }

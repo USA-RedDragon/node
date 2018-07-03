@@ -79,6 +79,5 @@
   },
   "_shasum": "3e3fa4c47a565609e6cca220053f8d19fc1240e7",
   "_resolved": "https://registry.npmjs.org/ng-quill/-/ng-quill-3.7.1.tgz",
-  "_from": "ng-quill@3.7.1",
-  "readme": "ERROR: No README data found!"
+  "_from": "ng-quill@latest"
 }

@@ -199,7 +199,7 @@
   "homepage": "https://github.com/karma-runner/grunt-karma#readme",
   "_id": "grunt-karma@2.0.0",
   "_shasum": "753583d115dfdc055fe57e58f96d6b3c7e612118",
-  "_from": "grunt-karma@2.0.0",
+  "_from": "grunt-karma@latest",
   "_npmVersion": "3.8.8",
   "_nodeVersion": "6.0.0",
   "_npmUser": {

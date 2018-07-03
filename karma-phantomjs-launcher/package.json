@@ -141,7 +141,7 @@
   "homepage": "https://github.com/karma-runner/karma-phantomjs-launcher#readme",
   "_id": "karma-phantomjs-launcher@1.0.2",
   "_shasum": "19e1041498fd75563ed86730a22c1fe579fa8fb1",
-  "_from": "karma-phantomjs-launcher@1.0.2",
+  "_from": "karma-phantomjs-launcher@latest",
   "_npmVersion": "3.10.3",
   "_nodeVersion": "6.3.0",
   "_npmUser": {
@@ -175,5 +175,6 @@
     "tmp": "tmp/karma-phantomjs-launcher-1.0.2.tgz_1472630925334_0.9811416929587722"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-1.0.2.tgz"
+  "_resolved": "https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-1.0.2.tgz",
+  "readme": "ERROR: No README data found!"
 }

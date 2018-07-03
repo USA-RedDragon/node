@@ -20,27 +20,10 @@
     "url": "https://github.com/bevacqua/mongoose-parse/issues"
   },
   "homepage": "https://github.com/bevacqua/mongoose-parse",
-  "gitHead": "b3278cfdfb0b3227f65db48d93b4908fc01cf086",
+  "readme": "# mongoose-parse\n\n> Parse `mongoose` errors for validation messages\n\n## Install\n\n```shell\nnpm install mongoose-parse --save\n```\n\n## Usage\n\n```js\nvar parse = require('mongoose-parse');\n\nnew User({ email: 'ponyfoo@ad.ventures' }).save();\nnew User({ email: 'ponyfoo@ad.ventures' }).save(function saved (err) {\n  console.log(parse(err));\n});\n```\n\nParsing the error with `mongoose-parse` will yield the following.\n\n```json\n{\n  \"code\": 11000,\n  \"path\": \"email\"\n}\n```\n\nIf a duplicate key error isn't detected, the original error object will be returned.\n\n## License\n\nMIT\n",
+  "readmeFilename": "readme.markdown",
   "_id": "mongoose-parse@1.0.1",
   "_shasum": "d2827680cd0621627f6397217e37e9a4e0e04795",
-  "_from": "mongoose-parse@1.0.1",
-  "_npmVersion": "2.1.10",
-  "_nodeVersion": "0.10.26",
-  "_npmUser": {
-    "name": "bevacqua",
-    "email": "nicolasbevacqua@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "bevacqua",
-      "email": "nicolasbevacqua@gmail.com"
-    }
-  ],
-  "dist": {
-    "shasum": "d2827680cd0621627f6397217e37e9a4e0e04795",
-    "tarball": "https://registry.npmjs.org/mongoose-parse/-/mongoose-parse-1.0.1.tgz"
-  },
-  "directories": {},
   "_resolved": "https://registry.npmjs.org/mongoose-parse/-/mongoose-parse-1.0.1.tgz",
-  "readme": "ERROR: No README data found!"
+  "_from": "https://registry.npmjs.org/mongoose-parse/-/mongoose-parse-1.0.1.tgz"
 }

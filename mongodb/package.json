@@ -65,7 +65,7 @@
   "gitHead": "d913634d4af3632ad7b2a6be937791072c4f0901",
   "_id": "mongodb@2.2.15",
   "_shasum": "6b9612107eb4fcf475e4c8337ff8cc78c17d6c44",
-  "_from": "mongodb@2.2.15",
+  "_from": "mongodb@*",
   "_npmVersion": "3.10.8",
   "_nodeVersion": "6.9.1",
   "_npmUser": {
@@ -86,7 +86,6 @@
     "host": "packages-12-west.internal.npmjs.com",
     "tmp": "tmp/mongodb-2.2.15.tgz_1481385682957_0.7368299518711865"
   },
-  "deprecated": "Please upgrade to 2.2.19 or higher",
   "directories": {},
   "_resolved": "https://registry.npmjs.org/mongodb/-/mongodb-2.2.15.tgz"
 }

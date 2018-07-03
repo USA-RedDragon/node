@@ -35,7 +35,7 @@
   "gitHead": "127f2fbb585228b5a900a71abe7337b0a38699c8",
   "_id": "striptags@3.1.1",
   "_shasum": "c8c3e7fdd6fb4bb3a32a3b752e5b5e3e38093ebd",
-  "_from": "striptags@3.1.1",
+  "_from": "striptags@*",
   "_npmVersion": "3.5.2",
   "_nodeVersion": "4.2.6",
   "_npmUser": {

@@ -33,7 +33,7 @@
   "description": "SEO Solution for MEAN.JS applications which forwards crawlers requests to a compiled HTML copy using PhantomJS.",
   "_id": "mean-seo@0.0.8",
   "_shasum": "d3a8b0fafc802743dc2e5484ebb2843c0728b8e4",
-  "_from": "mean-seo@0.0.8",
+  "_from": "mean-seo@latest",
   "_npmVersion": "1.4.23",
   "_npmUser": {
     "name": "roieki",

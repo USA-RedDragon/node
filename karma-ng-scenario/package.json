@@ -45,7 +45,7 @@
   "homepage": "https://github.com/karma-runner/karma-ng-scenario#readme",
   "_id": "karma-ng-scenario@1.0.0",
   "_shasum": "03315b27ee866f40443cf88bfebf7963f86543e1",
-  "_from": "karma-ng-scenario@1.0.0",
+  "_from": "karma-ng-scenario@latest",
   "_npmVersion": "2.14.12",
   "_nodeVersion": "4.3.0",
   "_npmUser": {

@@ -59,7 +59,7 @@
   "homepage": "https://github.com/sindresorhus/gulp-mocha#readme",
   "_id": "gulp-mocha@3.0.1",
   "_shasum": "ab0ca2c39403718174dddad750e63a61be17e041",
-  "_from": "gulp-mocha@3.0.1",
+  "_from": "gulp-mocha@latest",
   "_npmVersion": "2.15.5",
   "_nodeVersion": "4.4.5",
   "_npmUser": {
@@ -85,5 +85,6 @@
     "tmp": "tmp/gulp-mocha-3.0.1.tgz_1471046810229_0.817590473452583"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/gulp-mocha/-/gulp-mocha-3.0.1.tgz"
+  "_resolved": "https://registry.npmjs.org/gulp-mocha/-/gulp-mocha-3.0.1.tgz",
+  "readme": "ERROR: No README data found!"
 }

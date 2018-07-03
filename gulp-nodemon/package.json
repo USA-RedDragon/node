@@ -48,7 +48,7 @@
   "gitHead": "485614c1bf7cf1c8192c570423bd2e5b24e5f81c",
   "_id": "gulp-nodemon@2.2.1",
   "_shasum": "d9bf199f5585458159d3d299153e60b46868b6f4",
-  "_from": "gulp-nodemon@2.2.1",
+  "_from": "gulp-nodemon@latest",
   "_npmVersion": "3.10.5",
   "_nodeVersion": "6.3.1",
   "_npmUser": {

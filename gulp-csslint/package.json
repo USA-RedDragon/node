@@ -59,7 +59,7 @@
   "homepage": "https://github.com/lazd/gulp-csslint#readme",
   "_id": "gulp-csslint@1.0.0",
   "_shasum": "d95a56f7719466147fa9a07302fdba1690391523",
-  "_from": "gulp-csslint@1.0.0",
+  "_from": "gulp-csslint@latest",
   "_npmVersion": "3.8.6",
   "_nodeVersion": "5.11.0",
   "_npmUser": {
@@ -81,5 +81,6 @@
     "tmp": "tmp/gulp-csslint-1.0.0.tgz_1471724696271_0.5921891615726054"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/gulp-csslint/-/gulp-csslint-1.0.0.tgz"
+  "_resolved": "https://registry.npmjs.org/gulp-csslint/-/gulp-csslint-1.0.0.tgz",
+  "readme": "ERROR: No README data found!"
 }

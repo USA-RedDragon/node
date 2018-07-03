@@ -83,7 +83,7 @@
   "homepage": "https://github.com/visionmedia/superagent#readme",
   "_id": "superagent@3.1.0",
   "_shasum": "e05a03b630cd7b0a0e17c26543977fd4a35c3296",
-  "_from": "superagent@3.1.0",
+  "_from": "superagent@latest",
   "_npmVersion": "3.10.9",
   "_nodeVersion": "7.2.0",
   "_npmUser": {

@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitinn/node-fetch.git"
+    "url": "git+https://github.com/bitinn/node-fetch.git"
   },
   "keywords": [
     "fetch",
@@ -90,5 +90,6 @@
   },
   "_shasum": "ab884e8e7e57e38a944753cec706f788d1768bb5",
   "_resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.1.2.tgz",
-  "_from": "node-fetch@2.1.2"
+  "_from": "node-fetch@>=2.1.2 <3.0.0",
+  "readme": "ERROR: No README data found!"
 }

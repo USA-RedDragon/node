@@ -134,7 +134,7 @@
   "homepage": "https://github.com/karma-runner/karma-chrome-launcher#readme",
   "_id": "karma-chrome-launcher@2.0.0",
   "_shasum": "c2790c5a32b15577d0fff5a4d5a2703b3b439c25",
-  "_from": "karma-chrome-launcher@2.0.0",
+  "_from": "karma-chrome-launcher@latest",
   "_npmVersion": "3.10.3",
   "_nodeVersion": "6.3.0",
   "_npmUser": {
@@ -168,5 +168,6 @@
     "tmp": "tmp/karma-chrome-launcher-2.0.0.tgz_1471537093162_0.5068207308650017"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz"
+  "_resolved": "https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz",
+  "readme": "ERROR: No README data found!"
 }

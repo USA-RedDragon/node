@@ -59,7 +59,7 @@
   "homepage": "https://github.com/karma-runner/karma-script-launcher#readme",
   "_id": "karma-script-launcher@1.0.0",
   "_shasum": "cd017c4de5ef09e5a9da793276176108dd4b542d",
-  "_from": "karma-script-launcher@1.0.0",
+  "_from": "karma-script-launcher@latest",
   "_npmVersion": "2.14.12",
   "_nodeVersion": "4.3.0",
   "_npmUser": {
